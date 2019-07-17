@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: nacos-provider-config
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 39.108.124.14:8848
